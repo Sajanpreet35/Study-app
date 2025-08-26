@@ -4,11 +4,14 @@ workflows:
     environment:
       node: 16
       npm: 7
-      expo-cli: latest
     scripts:
+      - name: Install Expo CLI
+        script: npm install -g expo-cli
       - name: Install dependencies
         script: npm install
       - name: Build Android APK
         script: expo build:android -t apk
     artifacts:
       - build/**/*.apk
+      - dist/**/*.apk
+      
