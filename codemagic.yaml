@@ -1,18 +1,18 @@
 workflows:
-  eas-android:
-    name: Expo EAS Android Build
+  expo-android:
+    name: Expo Android Only
     max_build_duration: 60
     environment:
+      node: 16
       vars:
-        EXPO_TOKEN: km16uonBiGjxDoGhuMQe78DaG19crUq9-ZMMiFFF
-      node: 18
-      npm: latest
+        EXPO_TOKEN:km16uonBiGjxDoGhuMQe78DaG19crUq9-ZMMiFFF
     scripts:
+      - npm install -g eas-cli
       - npm install
-      - npx eas build -p android --profile preview --non-interactive
+      - eas build -p android --non-interactive --profile preview
     artifacts:
-      - build/**/*.apk
+      - build/**/*
     publishing:
       email:
         recipients:
-          - "your-email@example.com"
+          - "sajansingh2037@gmail.com
