@@ -1,0 +1,40 @@
+
+{
+  "project_info": {
+    "project_number": "383378613377",
+    "project_id": "study-discussion-club",
+    "storage_bucket": "study-discussion-club.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:383378613377:android:your-android-app-id",
+        "android_client_info": {
+          "package_name": "com.india.studydiscussionclub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "383378613377-your-oauth-client-id.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AlzaSyDwbIHTMWM_AQ-NlsdXGDzAFcC8TfgIZiY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "383378613377-your-oauth-client-id.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
