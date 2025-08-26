@@ -5,7 +5,7 @@ workflows:
     environment:
       node: 16
       vars:
-        EXPO_TOKEN:km16uonBiGjxDoGhuMQe78DaG19crUq9-ZMMiFFF
+        EXPO_TOKEN: km16uonBiGjxDoGhuMQe78DaG19crUq9-ZMMiFFF
     scripts:
       - npm install -g eas-cli
       - npm install
@@ -15,4 +15,4 @@ workflows:
     publishing:
       email:
         recipients:
-          - "sajansingh2037@gmail.com
+          - sajansingh2037@gmail.com
